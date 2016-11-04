@@ -61,6 +61,12 @@ Today we have:
 * [ [ addAttributesToSVGElement](https://github.com/svg/svgo/blob/master/plugins/addAttributesToSVGElement.js) ] adds attributes to an outer `<svg>` element (disabled by default)
 * [ [ removeStyleElement](https://github.com/svg/svgo/blob/master/plugins/removeStyleElement.js) ] remove `<style>` elements (disabled by default)
 
+**Additions in this fork:**
+
+* [ [ removeExtraAttrs](https://github.com/infinise/svgo/blob/master/plugins/removeExtraAttrs.js) ] removes even more attributes such as `fill-rule`, `clip-rule`, etc (disabled by default)
+* [ [ widthHeightToViewbox](https://github.com/infinise/svgo/blob/master/plugins/widthHeightToViewbox.js) ] converts `width` and `height` to a single `viewBox`
+* [ [ removeBoundsElement](https://github.com/infinise/svgo/blob/master/plugins/removeBoundsElement.js) ] removes "bounds" elements (objects with magenta fill used to pad an SVG)
+
 Want to know how it works and how to write your own plugin? [Of course you want to](https://github.com/svg/svgo/blob/master/docs/how-it-works/en.md). ([동작방법](https://github.com/svg/svgo/blob/master/docs/how-it-works/ko.md))
 
 
