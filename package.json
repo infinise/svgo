@@ -8,9 +8,9 @@
     "optimize",
     "minify"
   ],
-  "homepage": "https://github.com/svg/svgo",
+  "homepage": "https://github.com/infinise/svgo",
   "bugs": {
-    "url": "https://github.com/svg/svgo/issues",
+    "url": "https://github.com/infinise/svgo/issues",
     "email": "kir@soulshine.in"
   },
   "author": {
@@ -32,7 +32,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/svg/svgo.git"
+    "url": "git://github.com/infinise/svgo.git"
   },
   "main": "./lib/svgo.js",
   "bin": {
